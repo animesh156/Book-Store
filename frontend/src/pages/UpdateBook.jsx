@@ -20,7 +20,7 @@ const UpdateBook = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:5000/books/${id}`)
+      .get(`https://book-store-backend-seven-sigma.vercel.app/books/${id}`)
       .then((response) => {
         setAuthor(response.data.author);
         setTitle(response.data.title);

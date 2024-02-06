@@ -16,7 +16,7 @@ const ShowBook = () => {
     setLoading(true);
     
     axios
-      .get(`http://localhost:5000/books/${params.id}`)
+      .get(`https://book-store-backend-seven-sigma.vercel.app/books/${params.id}`)
       .then((response) => {
         console.log(response)
         setBook(response.data);
