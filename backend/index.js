@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:false}))
 
 
 
-app.use('/books',require('../backend/routes/api/books'))
+app.use('/books',require('./routes/api/books'))
 
 app.listen(port, () => {
   console.log(`server started on port ${port}`);
