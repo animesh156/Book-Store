@@ -25,7 +25,7 @@ const BooksTable = ({ books }) => {
                 </thead>
                 <tbody>
                     {books.map((book,index) => (
-                        <tr key={book._id} className="h-8 text-yellow-300">
+                        <tr key={book._id} className="h-8 font-bold dark:text-yellow-300">
 
                             <td className="border border-cyan-700 rounded-md text-center">
                                {index+1}
