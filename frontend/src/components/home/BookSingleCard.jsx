@@ -13,7 +13,7 @@ const BookSingleCard = ({ book }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className='border-2 border-gray-500 rounded-lg px-4 py-2 m-4 text-amber-600  relative hover:shadow-lg hover:shadow-cyan-500/50 hover:border-purple-400 '>
+    <div className='border-2 border-gray-500 rounded-lg px-4 py-2 m-4 dark:text-amber-600  relative hover:shadow-lg hover:shadow-cyan-500/50 hover:border-purple-400 '>
      
       <div className='flex justify-start items-center gap-x-2'>
         <PiBookOpenTextLight className='text-red-300 text-2xl' />
